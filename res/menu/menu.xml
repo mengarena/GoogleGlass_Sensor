@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings"
+          android:title="@string/settings">
+        <menu>
+		    <item android:id="@+id/gyro"
+		          android:title="@string/gyro"
+		          android:icon="@drawable/ic_drive" />  
+		    <item android:id="@+id/accl"
+		          android:title="@string/accl"
+		          android:icon="@drawable/ic_drive" />            
+		    <item android:id="@+id/light"
+		          android:title="@string/light"
+		          android:icon="@drawable/ic_drive" />		    		    		          
+		    <item android:id="@+id/audio"
+		          android:title="@string/audio"
+		          android:icon="@drawable/ic_microphone_on" />
+		    <item android:id="@+id/video"
+		          android:title="@string/video"
+		          android:icon="@drawable/ic_video_on" />
+		    <item android:id="@+id/videoResolution"
+		          android:title="@string/videoResolution">
+		        <menu>
+				    <item android:id="@+id/p720"
+				          android:title="@string/p720"
+				          android:icon="@drawable/ic_done" />            
+				    <item android:id="@+id/p480"
+				          android:title="@string/p480" />  
+		        </menu>
+		    </item>		    		    
+        </menu>
+    </item>
+    <item android:id="@+id/frequency"
+          android:title="@string/frequency">
+        <menu>
+		    <item android:id="@+id/fifty_hz"
+		          android:title="@string/fifty_hz"
+		          android:icon="@drawable/ic_done" />            
+		    <item android:id="@+id/twenty_hz"
+		          android:title="@string/twenty_hz" />  
+        </menu>
+    </item>   
+    <item android:id="@+id/duration"
+          android:title="@string/duration">
+        <menu>
+		    <item android:id="@+id/no_limit"
+		          android:title="@string/no_limit"
+		          android:icon="@drawable/ic_done"/>
+            <item android:id="@+id/thirty_sec"
+		          android:title="@string/thirty_sec"/>  
+		    <item android:id="@+id/one_min"
+		          android:title="@string/one_min"/>
+		    <item android:id="@+id/three_min"
+		          android:title="@string/three_min"/>
+		    <item android:id="@+id/five_min"
+		          android:title="@string/five_min"/>		    
+		    <item android:id="@+id/ten_min"
+		          android:title="@string/ten_min"/>		    
+		    <item android:id="@+id/twenty_min"
+		          android:title="@string/twenty_min"/> 
+		    <item android:id="@+id/thirty_min"
+		          android:title="@string/thirty_min"/>
+		    <item android:id="@+id/sixty_min"
+		          android:title="@string/sixty_min"/>
+		    <item android:id="@+id/ninety_min"
+		          android:title="@string/ninety_min"/>
+		    <item android:id="@+id/two_hour"
+		          android:title="@string/two_hour"/>
+		    <item android:id="@+id/four_hour"
+		          android:title="@string/four_hour"/>		    		    		    		    	            		    
+		 </menu>
+    </item>
+        
+    <item android:id="@+id/start"
+          android:title="@string/start"
+          android:icon="@drawable/ic_run"
+        />
+    <item
+        android:id="@+id/stop"
+        android:title="@string/stop"
+        android:icon="@drawable/ic_stop"
+        />
+    <item
+        android:id="@+id/exit"
+        android:title="@string/exit"
+        android:icon="@drawable/ic_stop"
+        />
+    
+</menu>

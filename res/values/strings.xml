@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActivityDataCollection</string>
+    <string name="start_datacollection">Data Collection</string>
+    <string name="welcome_info">Welcome</string>
+    
+    <string name="settings">Select Data Source</string>
+    <string name="duration">Duration</string>
+    <string name="start">Start Collection</string>
+    <string name="stop">Stop Collection</string>
+    <string name="exit">Exit</string>
+
+    <string name="gyro">Gyroscope</string>
+    <string name="accl">Accelerometer</string>
+    <string name="light">Light</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>    
+	<string name="videoResolution">Video Resolution</string>
+    <string name="p720">720P</string>
+    <string name="p480">480P</string>
+   
+    <string name="no_limit">No limit</string>
+    <string name="thirty_sec">30 sec</string>
+    <string name="one_min">1 min</string>
+    <string name="three_min">3 mins</string>
+    <string name="five_min">5 mins</string>
+    <string name="ten_min">10 mins</string>
+    <string name="twenty_min">20 mins</string>
+    <string name="thirty_min">30 mins</string>
+    <string name="sixty_min">60 mins</string>
+    <string name="ninety_min">90 mins</string>
+    <string name="two_hour">2 hours</string>
+    <string name="four_hour">4 hours</string>
+    
+    <string name="frequency">Frequency</string>
+    <string name="fifty_hz">50 Hz</string>
+    <string name="twenty_hz">20 Hz</string>
+    
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+
+    <string name="activitydata_folder">ActivityData</string>
+    
+    <string name="myalarm">MY_ALARM</string>
+    
+    <string name="running_msg">Collecting Activity Data</string>
+    <string name="defaultinfo">Collect Activity Data</string>
+
+</resources>
+
+
